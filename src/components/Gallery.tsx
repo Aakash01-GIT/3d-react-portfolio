@@ -17,6 +17,7 @@ import myphoto2 from '../assets/me2.jpg'
 import momdadphoto from '../assets/momdad.jpg'
 import dadphoto from '../assets/dad.jpg'
 import bolbamphoto from '../assets/bolbam.jpg'
+import chandragiri from '../assets/chandragiri.jpg'
 
 
 interface GalleryProps {
@@ -65,8 +66,9 @@ export default function Gallery({ registerSection, isDark }: GalleryProps) {
     { id: 14, src: momdadphoto, title: 'Me with Mom & Dad', category: 'Travelling' },
     { id: 15, src: dadphoto, title: 'Dad', category: 'Family' },
     { id: 16, src: bolbamphoto, title: 'Bolbam 2082', category: 'Travelling' },
-    { id: 17, src: bolbamphoto, title: 'Chandragiri', category: 'Travelling' },
+    { id: 17, src: chandragiri, title: 'Chandragiri', category: 'Travelling' },
     { id: 18, src: familyphoto, title: 'Family', category: 'Family' },
+
   ];
 
   const bgCard = isDark
