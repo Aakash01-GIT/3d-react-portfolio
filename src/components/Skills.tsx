@@ -15,8 +15,8 @@ export default function Skills({ registerSection, isDark }: SkillsProps) {
       skills: [
         { name: 'C', level: 80 },
         { name: 'C++', level: 75 },
-        { name: 'HTML', level: 85 },
-        { name: 'CSS', level: 80 },
+        { name: 'JAVA', level: 85 },
+        { name: 'C#', level: 80 },
       ],
     },
     {
@@ -30,12 +30,12 @@ export default function Skills({ registerSection, isDark }: SkillsProps) {
     },
 
     {
-      category: 'Thinking & Learning',
+      category: 'Website Development',
       skills: [
-        { name: 'Quick Learner', level: 95 },
-        { name: 'Problem Solving', level: 80 },
-        { name: 'Teamwork', level: 85 },
-        { name: 'Communication', level: 90 },
+        { name: 'HTML', level: 95 },
+        { name: 'CSS', level: 80 },
+        { name: 'React', level: 85 },
+        { name: 'Javascript', level: 90 },
       ],
     },
     {
