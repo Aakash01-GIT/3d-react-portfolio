@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
@@ -48,6 +49,7 @@ function App() {
       <About registerSection={registerSection} isDark={isDark} />
       <Skills registerSection={registerSection} isDark={isDark} />
       <Projects registerSection={registerSection} isDark={isDark} />
+      <Services registerSection={registerSection} isDark={isDark} />
       <Gallery registerSection={registerSection} isDark={isDark} />
       <Contact registerSection={registerSection} isDark={isDark} />
     </div>

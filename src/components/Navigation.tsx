@@ -15,6 +15,7 @@ export default function Navigation({ activeSection, isDark, setIsDark }: Navigat
     { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
+    { id: 'services', label: 'Services' },
     { id: 'gallery', label: 'Gallery' },
     { id: 'contact', label: 'Contact' },
   ];
