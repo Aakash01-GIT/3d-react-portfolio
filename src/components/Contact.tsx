@@ -42,8 +42,8 @@ export default function Contact({ registerSection, isDark }: ContactProps) {
     {
       icon: Mail,
       label: 'Email',
-      value: 'aakash.bkt09@gmail.com',
-      href: 'mailto:aakash.bkt09@gmail.com',
+      value: 'aakashthakur.global@gmail.com',
+      href: 'mailto:aakashthakur.global@gmail.com',
     },
     {
       icon: Phone,

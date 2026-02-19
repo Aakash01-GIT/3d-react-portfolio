@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
-import profileImg from '../assets/perfect-profile1.png'
+import profileImg from '../assets/myself.jpg'
 
 
 interface HeroProps {
@@ -32,7 +32,7 @@ export default function Hero({ registerSection, isDark }: HeroProps) {
           </span>
         </h1>
         <p className={`text-2xl md:text-3xl ${textColorPrimary} mb-8 font-light`}>
-           Student, Developer & Traveller 
+           Student, Developer & Tech Enthusiast
         </p>
         <p className={`text-lg md:text-xl ${textColorPrimary} mb-12 max-w-2xl mx-auto`}>
           Passionate about creating innovative solutions through code and engineering excellence

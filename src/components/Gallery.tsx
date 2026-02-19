@@ -1,23 +1,21 @@
 import { useState } from 'react';
 import { X } from 'lucide-react';
-import nagarkot from '../assets/hills.jpg'
-import friendphoto from '../assets/friends.jpg'
-import flowerphoto from '../assets/flower.jpg'
-import petphoto from '../assets/pet.jpg'
-import sunrisephoto from '../assets/sunrise.jpg'
-import sunsetphoto from '../assets/sunset.jpg'
-import shopphoto from '../assets/shop.jpg'
 import mentorsphoto from '../assets/mentors1.jpg'
 import mentorsphoto1 from '../assets/mentors2.jpg'
-import familyphoto from '../assets/family.jpg'
-import hillphoto1 from '../assets/hill1.jpg'
-import myphoto from '../assets/me.jpg'
-import myphoto1 from '../assets/me1.jpg'
-import myphoto2 from '../assets/me2.jpg'
-import momdadphoto from '../assets/momdad.jpg'
-import dadphoto from '../assets/dad.jpg'
-import bolbamphoto from '../assets/bolbam.jpg'
-import chandragiri from '../assets/chandragiri.jpg'
+import sanyasi from '../assets/sanyasi.jpg'
+import chandra from '../assets/chandra.jpg'
+import muktinath from '../assets/muktinath.jpg'
+import lake from '../assets/lake.jpg'
+import marpha from '../assets/marpha.jpg'
+import party from '../assets/party.jpg'
+import tample0 from '../assets/temple.jpg'
+import tample1 from '../assets/temple1.jpg'
+import dada from '../assets/dada.jpg'
+import college from '../assets/college.jpg'
+import myphoto from '../assets/myself.jpg'
+import fewa from '../assets/fewa.jpg'
+import nature from '../assets/hill1.jpg'
+import clz from '../assets/clz.jpg'
 
 
 interface GalleryProps {
@@ -50,24 +48,21 @@ export default function Gallery({ registerSection, isDark }: GalleryProps) {
   };
 
   const images: GalleryImage[] = [
-    { id: 1, src: myphoto, title: 'Myself', category: 'Photo' },
-    { id: 2, src: sunrisephoto, title: 'Sunrise', category: 'Nature' },
-    { id: 3, src: sunsetphoto, title: 'Sunset', category: 'Nature' },
-    { id: 4, src: hillphoto1, title: 'Hills', category: 'Nature' },
-    { id: 5, src: mentorsphoto , title: 'Mentors Academy', category: 'Learning' },
-    { id: 6, src: friendphoto, title: 'Friends', category: 'Friends' },
-    { id: 7, src: flowerphoto, title: 'Flower', category: 'Nature' },
-    { id: 8, src: petphoto, title: 'An old pet', category: 'Pet' },
-    { id: 9, src: shopphoto, title: 'Shop', category: 'Shop' },
-    { id: 10, src: nagarkot, title: 'Nagarkot', category: 'Travelling' },
-    { id: 11, src: mentorsphoto1, title: 'Mentors Academy', category: 'Learning' },
-    { id: 12, src: myphoto1, title: 'Myself', category: 'Photo' },
-    { id: 13, src: myphoto2, title: 'Myself', category: 'Photo' },
-    { id: 14, src: momdadphoto, title: 'Me with Mom & Dad', category: 'Travelling' },
-    { id: 15, src: dadphoto, title: 'Dad', category: 'Family' },
-    { id: 16, src: bolbamphoto, title: 'Bolbam 2082', category: 'Travelling' },
-    { id: 17, src: chandragiri, title: 'Chandragiri', category: 'Travelling' },
-    { id: 18, src: familyphoto, title: 'Family', category: 'Family' },
+    { id: 1, src: myphoto, title:'', category: 'Tour' },
+    { id: 2, src: sanyasi, title: '', category: 'Hike' },
+    { id: 3, src: chandra, title: '', category: 'Travel' },
+    { id: 4, src: muktinath, title: '', category: 'Tour' },
+    { id: 5, src: mentorsphoto , title: '', category: 'Learning' },
+    { id: 6, src: lake, title: '', category: 'Tour' },
+    { id: 7, src: marpha, title: '', category: 'Nature' },
+    { id: 8, src: party, title: '', category: 'Party' },
+    { id: 9, src: tample0, title: '', category: 'Temple' },
+    { id: 10, src: tample1, title: '', category: 'Visit' },
+    { id: 11, src: mentorsphoto1, title: '', category: 'Learning' },
+    { id: 12, src: dada, title: '', category: 'Travel' },
+    { id: 13, src: college, title: '', category: 'College' },
+    { id: 14, src: fewa, title: '', category: 'Tour' },
+    { id: 15, src: clz , title: '', category: 'College' },
 
   ];
 
@@ -89,7 +84,11 @@ export default function Gallery({ registerSection, isDark }: GalleryProps) {
           </span>
         </h2>
         <p className="mt-2 mb-8 text-lg md:text-xl font-medium bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-            Enter password to access the gallery
+            Enter password to access the gallery 
+
+        </p>
+        <p className='mt-2 mb-8 text-lg md:text-xl font-small bg-gradient-to-r from-cyan-900 to-blue-300 bg-clip-text text-transparent'>
+          Hint : Just put my phone number 
         </p>
 
         {!accessGranted && (
